@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # FoodEcommerce
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.4.
@@ -30,6 +31,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 =======
 # Food_Ecommerce
 >>>>>>> 150d8d28e65c7b8640d1a05008641e0ddc6edcdc
+=======
+# Food_Ecommerce
+>>>>>>> 53bc3adbc5c208d1df76ef1985728e6ede67e475
 =======
 # Food_Ecommerce
 >>>>>>> 53bc3adbc5c208d1df76ef1985728e6ede67e475
