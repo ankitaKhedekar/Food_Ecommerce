@@ -1,0 +1,77 @@
+/* Dessert Heading Style */
+.dessert-heading {
+  font-size: 50px; /* Set font size */
+  font-weight: bold; /* Make text bold */
+  color: black; /* Set text color to black */
+  font-family: 'Playfair Display'; /* Use 'Play' font */
+  text-align: center; /* Center the heading text */
+  margin: 20px 0; /* Add margin for spacing */
+}
+
+/* White Background Section */
+.white-backgroundourmenu {
+  background-color: rgb(250, 249, 249);
+  height: 80%; /* Change to auto for height based on content */
+  width: 80%; /* 80% of the viewport width */
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  margin: auto; /* Center the div horizontally within the parent */
+  flex-direction: column; /* Stack items vertically */
+}
+
+/* Card Section Styles */
+.card-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns to center the cards */
+  gap: 20px; /* Spacing between cards */
+  margin-top: 20px; /* Space above the card section */
+}
+
+/* Card Style */
+.card {
+  background-color: #ffffff; /* Card background color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  overflow: hidden; /* Prevent overflow of content */
+  transition: transform 0.3s; /* Smooth scaling on hover */
+  width: 220px; /* Width of each card */
+  height: 300px; /* Height of each card */
+  display: flex;
+  flex-direction: column; /* Stack image and content vertically */
+  align-items: center; /* Center content in card */
+}
+
+/* Card Image Styles */
+.card-image img {
+  width: 100%; /* Make image responsive */
+  height: auto; /* Maintain aspect ratio */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.card-image img:hover {
+  transform: scale(1.05); /* Slightly enlarge the image */
+}
+
+/* Card Content Styles */
+.card-content {
+  padding: 10px; /* Add some padding for text */
+}
+
+/* Card Title Style */
+.card-title {
+  font-size: 18px; /* Increase font size for title */
+}
+
+/* Card Price Style */
+.card-price {
+  font-size: 16px; /* Increase font size for price */
+  font-weight: bold; /* Make the price bold */
+  color: #AD343E; /* Set color for price */
+}
+
+/* Card Description Style */
+.card-description {
+  font-size: 14px; /* Set font size for description */
+  font-family: 'DM Sans'; /* Use 'DM Sans' font */
+}

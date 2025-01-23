@@ -1,0 +1,74 @@
+
+
+/* Style for the white background div */
+.white-bookatable {
+    background-color: #F9F9F7;
+    height: 450vh; /* 70% of the viewport height */
+    width: 90%; /* 80% of the viewport width */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    margin: auto; /* Center the div horizontally within the parent */
+    position: relative; /* Allow absolute positioning of children */
+  }
+  .contentdetails {
+    height: auto; /* Maintain aspect ratio */
+    height: 200vh; /* 70% of the viewport height */
+    width: 70%; /* 80% of the viewport width */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    margin: auto; /* Center the div horizontally within the parent */
+    position: relative; /* Allow absolute positioning of children */
+  }
+
+ 
+
+  .bookatableaddress-image {
+    width: 80%; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 15px; /* Space between image and card */
+  }
+
+  .white-backgroundmap {
+    /* background-image: url('../../../assets/image 112.png');  */
+    background-color: rgb(253, 253, 253);
+
+    height: 90vh; /* 80% of the viewport height */
+    width: 90%; /* 80% of the viewport width */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    margin: auto; /* Center the div horizontally within the parent */
+    padding-top: 70px; /* Optional: Add some padding to the top */
+  }
+
+  .bookatablefooter-image {
+    width: 80%; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 15px; /* Space between image and card */
+  }
+
+  .white-backgroundfooter {
+    /* background-image: url('../../../assets/image 112.png');  */
+    background-color: rgb(73, 73, 73);
+
+    height: 90vh; /* 80% of the viewport height */
+    width: 90%; /* 80% of the viewport width */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    margin: auto; /* Center the div horizontally within the parent */
+    padding-top: 70px; /* Optional: Add some padding to the top */
+  }
+
+  
+ 
+
+  
+  
+  
+  
+  

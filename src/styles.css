@@ -1,1 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+button {
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: #ff6600;
+  }
+  
+
+/* Navbar background color */
+.bg-grey {
+    background-color: #3a3b3b; /* Light grey */
+    color: #fff;
+  }
+  
+  /* Phone and email icons with text */
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .phone-number, .email-address {
+    margin-left: 8px;
+    font-size: 16px;
+    color: #ffffff;
+  }
+  
+  .navbar-left i {
+    color: #ffffff;
+  }
+  
+  /* Add spacing between phone and email */
+  .navbar-left .fa-envelope {
+    margin-left: 20px; /* Add some spacing between phone and email icons */
+  }
+  
+  /* Social Media Icons */
+  .social-icons {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .social-icons .nav-item {
+    margin-left: 15px;
+  }
+  
+  .social-icons i {
+    font-size: 18px;
+    color: #ffffff;
+  }
+  
+  .social-icons i:hover {
+    color: #007bff; /* Hover color */
+  }
+  
+
+ 

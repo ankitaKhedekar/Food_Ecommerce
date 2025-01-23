@@ -1,0 +1,139 @@
+
+
+/* Style for the white background div */
+.white-bookatable {
+  background-color: #F9F9F7;
+  height: 70vh; /* 70% of the viewport height */
+  width: 80%; /* 80% of the viewport width */
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  margin: auto; /* Center the div horizontally within the parent */
+  position: relative; /* Allow absolute positioning of children */
+}
+
+/* Style for the image */
+.bookatable-image {
+  width: 45%; /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 20px; /* Space between image and card */
+}
+
+.bookatableaddress-image {
+  width: 45%; /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 20px; /* Space between image and card */
+}
+
+
+
+ 
+  
+  /* Style for the Explore-content */
+  .Explore-bookatable {
+    background-image: url('../../../assets/hero.png'); /* Correct path */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 800px; /* Set width as needed */
+    height: 500px; /* Set height as needed */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    margin-left: 180px;
+    margin-top: 300px;
+
+  
+  }
+  
+  /* Style for the blue background div */
+
+  .white-backgroundmap {
+    /* background-image: url('../../../assets/image 112.png');  */
+    background-color: #f3f2f2;
+
+    height: 70vh; /* 80% of the viewport height */
+    width: 80%; /* 80% of the viewport width */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    margin: auto; /* Center the div horizontally within the parent */
+    padding-top: 150px; /* Optional: Add some padding to the top */
+  }
+
+  .white-backgroundfooter {
+    background-image: url('../../../assets/BG (6).png'); /* Correct path */
+    height: 80vh; /* 80% of the viewport height */
+    width: 80%; /* 80% of the viewport width */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    margin: auto; /* Center the div horizontally within the parent */
+    padding-top: 150px; /* Optional: Add some padding to the top */
+  }
+  
+  /* Style for the Explore-content */
+  .Exploretwo-content {
+    background-image: url('../../../assets/content (11).png'); /* Correct path */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 800px; /* Set width as needed */
+    height: 500px; /* Set height as needed */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+  
+  }
+/* Style for the card */
+.card {
+  display: flex;
+  flex-direction: column; /* Stack form items vertically */
+  padding: 20px; /* Padding inside the card */
+  border-radius: 15px; /* Optional: round corners of the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  background-color: white; /* Card background color */
+  width: 100%; /* Full width of parent */
+  max-width: 500px; /* Set a max width for the card */
+  margin-bottom: -250px; /* Space above the card */
+}
+
+/* Style for custom inputs */
+.custom-input {
+  border-radius: 50px; /* Makes the corners rounded to create an oval shape */
+  padding: 10px 15px; /* Adjusts padding for better spacing */
+  border: 1px solid #ccc; /* Border color */
+}
+
+/* Style for custom button */
+.custom-button {
+  border-radius: 50px; /* Makes the button oval */
+  background-color: #AD343E; /* Set your desired button color */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Adjusts padding for button size */
+  width: 100%; /* Makes the button the full width of its container */
+  border: none; /* Remove border */
+}
+
+.custom-button:hover {
+  background-color: #951b29; /* Change color on hover for better UX */
+}
+
+
+  
+.custom-textarea {
+  width: 100%; /* Full width */
+  height: 50px; /* Fixed height */
+  border-radius: 10px 10px 20px 20px; /* Rounded top corners and slightly rounded bottom corners */
+  resize: none; /* Disable resizing */
+  border: 1px solid #ccc; /* Add border if needed */
+  padding: 10px; /* Padding for comfortable text input */
+}
+
+.custom-input-int {
+  border-radius: 10px; /* Makes the corners rounded to create an oval shape */
+  padding: 10px 15px; /* Adjusts padding for better spacing */
+  border: 1px solid #ccc; /* Border color */
+}
+
+
+

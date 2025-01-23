@@ -1,0 +1,88 @@
+/* Background and Layout */
+.white-backgroundourmenu {
+  background-color: rgb(245, 245, 245); /* Light grey background */
+  height: 250vh; /* Height of the container */
+  width: 80%; /* Width set to 80% of viewport */
+  display: flex;
+  flex-direction: column; /* Stack the title and cards vertically */
+  align-items: center; /* Center elements horizontally */
+  margin: auto;
+  padding: 20px; /* Add padding inside the main div */
+}
+
+/* Breakfast Title */
+.breakfast-title {
+  font-size: 64px; /* Large font size */
+  font-weight: bold; /* Bold title */
+  color: #000000; /* Black color */
+  text-align: center; /* Center the title */
+  font-family: 'Playfair Display'; /* Modern font family */
+  margin-bottom: 50px; /* Space between title and cards */
+  text-transform: uppercase; /* Make text uppercase */
+  letter-spacing: 3px; /* Space between letters */
+}
+
+/* Card Section */
+.card-section {
+  display: flex;
+  flex-direction: column; /* Stack cards vertically */
+  align-items: center; /* Center the cards horizontally */
+  gap: 50px; /* Add space between the cards */
+  width: 100%; /* Full width for the card section */
+}
+
+/* Card Style */
+.card {
+  background-color: #ffffff; /* White background for the card */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  overflow: hidden; /* Prevent overflow of content */
+  transition: transform 0.3s; /* Smooth scaling on hover */
+  width: 60%; /* Width of the cards */
+  height: 650px; /* Adjust height based on content */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content in the card */
+}
+
+/* Shift first card upwards and second card downwards */
+.card-up {
+  transform: translateY(-50px); /* Move the card up */
+}
+
+.card-down {
+  transform: translateY(50px); /* Move the card down */
+}
+
+/* Card Image */
+.card-image img {
+  width: 100%; /* Make the image responsive */
+  height: 500px; /* Set a fixed height for the image */
+  object-fit: cover; /* Ensure the image covers the entire area */
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Image Hover Effect */
+.card-image img:hover {
+  transform: scale(1.1); /* Slightly enlarge the image */
+  opacity: 0.9; /* Slightly decrease opacity for a hover effect */
+}
+
+/* Card Content */
+.card-content {
+  padding: 20px; /* Add padding inside the card */
+  text-align: center; /* Center-align the text */
+}
+
+/* Card Title */
+.card-title {
+  font-size: 24px; /* Font size for the card title */
+  font-weight: bold; /* Bold title */
+}
+
+/* Card Description */
+.card-description {
+  font-size: 14px; /* Font size for the description */
+  color: #555555; /* Lighter color for text */
+  line-height: 1.5; /* Line spacing for better readability */
+}

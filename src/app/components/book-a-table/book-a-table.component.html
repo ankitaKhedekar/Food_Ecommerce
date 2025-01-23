@@ -1,0 +1,89 @@
+<router-outlet></router-outlet>
+
+<div class="white-bookatable">
+  <!-- Add your image here -->
+  <img src="../../../assets/title (1).png" alt="Description of Image" class="bookatable-image" />
+
+
+  <div class="card">
+    <div class="card-body">
+      <!-- <form #bookingForm="ngForm">
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="date">Date</label>
+            <input type="date" id="date" class="form-control custom-input" required name="date">
+          </div>
+          <div class="col-md-6">
+            <label for="time">Time</label>
+            <input type="time" id="time" class="form-control custom-input" required name="time">
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="name">Name</label>
+            <input type="text" id="name" class="form-control custom-input" required name="name">
+          </div>
+          <div class="col-md-6">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" class="form-control custom-input" required name="phone">
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <label for="people">Total Person</label>
+          <input type="number" id="people" class="form-control custom-input" required name="people" min="1" max="100">
+        </div>
+
+        <br>
+
+        <div class="col-md-12">
+          <button type="submit" class="btn btn-primary custom-button">Book A Table</button>
+        </div>
+      </form> -->
+
+      <form #bookingForm="ngForm">
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="date">Date</label>
+            <input type="date" id="date" class="form-control custom-input" required name="date" [(ngModel)]="bookingData.date">
+          </div>
+          <div class="col-md-6">
+            <label for="time">Time</label>
+            <input type="time" id="time" class="form-control custom-input" required name="time" [(ngModel)]="bookingData.time">
+          </div>
+        </div>
+      
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" class="form-control custom-input" required name="name" [(ngModel)]="bookingData.name">
+          </div>
+          <div class="col-md-6">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone"  placeholder="x-xxx-xxx-xxxx"  class="form-control custom-input" required name="phone" [(ngModel)]="bookingData.phone">
+          </div>
+        </div>
+      
+        <div class="col-md-12">
+          <label for="people">Total Person</label>
+          <input type="number" id="people" class="form-control custom-input" required name="people" min="1" max="100" [(ngModel)]="bookingData.people">
+        </div>
+      
+        <br>
+      
+        <div class="col-md-12">
+          <button type="submit" class="btn btn-primary custom-button" [disabled]="bookingForm.invalid">Book A Table</button>
+        </div>
+      </form>
+      
+      
+    </div>
+  </div>
+</div>
+
+<div class="white-backgroundmap"></div>
+
+<div class="white-backgroundfooter">
+  <div class="Exploretwo-content"></div>
+</div>

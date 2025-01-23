@@ -1,0 +1,290 @@
+<div class="home-background">
+    <div class="welcome-image"></div>
+
+    <div class="button-container">
+        <a routerLink="/book-a-table">
+            <div class="button-image button-1"></div> <!-- First button (Book a Table) -->
+        </a>
+        <a routerLink="/menu">
+            <div class="button-image button-2"></div> <!-- Second button (Menu) -->
+        </a>
+    </div>
+    <!-- Add more content here if needed -->
+</div>
+
+<!-- New div with white background -->
+<div class="white-background">
+    <div class="Title">Browse Our Menu</div>
+
+    <div class="card-container">
+        <div class="card">
+            <h3>
+                <img src="../../../assets/icon.png" alt="icon" class="icon-image">
+            </h3>
+            <h3>Breakfast</h3>
+            <p>
+                In the new era of technology,<br> we look into the future with certainty and pride for our life.
+            </p>
+            <br>
+            <h6>
+                <a routerLink="/menu" class="explore-link">Explore Menu</a>
+            </h6>
+        </div>
+        <div class="card">
+            <h3>
+                <img src="../../../assets/icon (1).png" alt="icon" class="icon-image">
+            </h3>
+            <h3>Main Dishes</h3>
+            <p>
+                In the new era of technology,<br> we look into the future with certainty and pride for our life.
+            </p>
+            <br>
+            <h6>
+                <a routerLink="/menu" class="explore-link">Explore Menu</a>
+            </h6>
+        </div>
+        <div class="card">
+            <h3>
+                <img src="../../../assets/icon (2).png" alt="icon" class="icon-image">
+            </h3>
+            <h3>Drinks</h3>
+            <p>
+                In the new era of technology,<br> we look into the future with certainty and pride for our life.
+            </p>
+            <br>
+            <h6>
+                <a routerLink="/menu" class="explore-link">Explore Menu</a>
+            </h6>
+        </div>
+        <div class="card">
+            <h3>
+                <img src="../../../assets/icon (3).png" alt="icon" class="icon-image">
+            </h3>
+            <h3>Desserts</h3>
+            <p>
+                In the new era of technology we look in the future with certainty and pride for our life.            </p>
+            <br>
+            <h6>
+                <a routerLink="/menu" class="explore-link">Explore Menu</a>
+            </h6>
+        </div>
+    </div>
+</div>
+
+<!-- New div with blue background -->
+<div class="blue-background">
+    <div class="card-content-container">
+      <div class="card-container-healthy">
+        <!-- Existing Card -->
+        <div class="cards-healthy">
+          <img src="../../../assets/Image.png" alt="Desserts" class="dessert-image-healthy" /> <!-- Card 1 image -->
+        </div>
+        
+        <!-- New Card (Smaller and positioned above) -->
+        <div class="cards-healthy new-card">
+            <img src="../../../assets/BG (7).png" alt="New Image" class="new-image-healthy" /> <!-- New Card image -->
+            <div class="new-card-text">
+              <h3 class="new-card-heading">Come and visit us</h3> <!-- New Card Heading -->
+          
+              <div class="contact-info">
+                <!-- Phone Section -->
+                <div class="contact-item">
+                  <img src="../../../assets/icons8-phone-32.png" alt="Phone Icon" class="icon">
+                  <span>(414) 857 - 0107</span>
+                </div>
+                
+                <!-- Email Section -->
+                <div class="contact-item">
+                  <img src="../../../assets/icons8-email-24.png" alt="Email Icon" class="icon">
+                  <span>yummy&#64;bistroblies.com</span>
+                </div>
+              
+                <!-- Location Section -->
+                <div class="contact-item">
+                  <img src="../../../assets/icons8-location-24.png" alt="Location Icon" class="icon">
+                  <span>837 W. Marshall Lane, Marshalltown, IA 50158, Los Angeles</span>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          
+        
+      </div>
+  
+      <!-- Text content beside the card -->
+      <div class="card-text-content">
+        <h6 class="cards-healthy-title">
+          We provide healthy food for your family.
+        </h6>
+        <p class="cards-healthy-paragphy1">
+          Our story began with a vision to create a unique dining experience that merges fine dining, exceptional service, and a vibrant ambiance...
+        </p>
+        <p class="cards-healthy-paragphy2">
+          At our place, we believe that dining is not just about food, but also about the overall experience...
+        </p>
+        <button class="oval-button" [routerLink]="['/about']">More About Us</button>
+      </div>
+    </div>
+  </div>
+  
+<div class="whitemorewealso-background">
+    <!-- <div class="content-two"></div> -->
+
+    <div class="Title-catering">We also offer unique<br>services for your events
+    </div>
+
+    <div class="card-container-catering">
+        <div class="card-catering">
+            <div class="card-image" (click)="navigateToCatering()">
+                <img src="../../../assets/kebab-set-table 1.png" alt="Card Image 1">
+            </div>   
+        </div>
+        <div class="card-catering">
+            <div class="card-image"(click)="navigateToBirthday()">
+                <img src="../../../assets/charming-female-blowing-candles-birthday-cake-after-making-her-wish-party 1.png" alt="Card Image 1">
+            </div>
+        </div>
+        <div class="card-catering">
+            <div class="card-image"(click)="navigateToWedding()">
+                <img src="../../../assets/happy-man-wife-sunny-day 1.png" alt="Card Image 1">
+            </div>
+        </div>
+        <div class="card-catering">
+            <div class="card-image" (click)="navigateToEvent()">
+                <img src="../../../assets/group-friends-eating-restaurant 1.png" alt="Card Image 1">
+            </div>
+        </div>
+    </div>
+    <div class="info-container-catering">
+        <div class="info-item-catering1">
+            <h3 class="card-heading-catering1">Caterings</h3>
+            <p class="card-paragraph-catering1">In the new era of technology we look  <br>in the future with certainty for life.</p>
+        </div>
+        <div class="info-item-catering2">
+            <h3 class="card-heading-catering2">Birthdays</h3>
+            <p class="card-paragraph-catering2">In the new era of technology we look  <br>in the future with certainty for life.</p>
+        </div>
+        <div class="info-item-catering3">
+            <h3 class="card-heading-catering3">Weddings</h3>
+            <p class="card-paragraph-catering3">In the new era of technology we look  <br>in the future with certainty for life.</p>
+        </div>
+        <div class="info-item-catering4">
+            <h3 class="card-heading-catering4">Events</h3>
+            <p class="card-paragraph-catering4">In the new era of technology we look  <br>in the future with certainty for life.</p>
+        </div>
+    </div>
+
+    <!-- Your content inside the white background div -->
+
+</div>
+<div class="whitemoreonefastestfood-background">
+    <!-- <div class="content-three"></div> -->
+    <div class="card-container-delivery">
+        <div class="card-section">
+            <div class="card-big-card-delivery">
+                <img src="../../../assets/mid-shot-chef-holding-plate-with-pasta-making-ok-sign 1.png" alt="Big Card Image" class="card-image-delivery" />
+            </div>
+            <div class="small-card-container">
+                <div class="card small-card-delivery">
+                    <img src="../../../assets/sour-curry-with-snakehead-fish-spicy-garden-hot-pot-thai-food 1.png" alt="Small Card Image" class="card-image-delivery" />
+                </div>
+                <div class="card small-card-delivery">
+                    <img src="../../../assets/sadj-iron-pot-with-various-salads 1.png" alt="Small Card Image" class="card-image-delivery" />
+                </div>
+            </div>
+        </div>
+        <div class="info-section">
+            <h3 class="info-heading">Fastest Food <br> Delivery in City</h3>
+            <p class="info-paragraph">Our visual designer lets you quickly and of drag a down <br> your way to customapps for both keep desktop. </p>
+            <h3 class="info-heading1">
+                <img src="../../../assets/Icon (4).png"class="delivery-icon" />
+                Delivery within 30 minutes
+            </h3>            
+            <h3 class="info-heading2">
+                <img src="../../../assets/Icon (5).png"class="delivery-icon" />
+                Best Offer & Prices
+            </h3>
+            <h3 class="info-heading3">
+                <img src="../../../assets/Icon (6).png"class="delivery-icon" />
+                Online Services Available
+            </h3>
+
+
+        </div>
+    </div>
+    
+    
+    
+    
+    
+      
+    <!-- Your content inside the white background div -->
+
+</div>
+<div class="whitemoreonemorewhatour-background">
+    <div class="content-four"></div>
+
+    <!-- Your content inside the white background div -->
+
+</div>
+<div class="whitemoreonemoreourblog-background">
+    <div class="title-and-button">
+        <div class="Titlee">
+            <img src="../../../assets/Our Blog & Articles.png" alt="Blog Image" class="blog-image" />
+        </div>
+        <a routerLink="/pages" class="read-all-button">Read All Articles</a>
+    </div>
+
+    <div class="card-containerr">
+        <div class="cards">
+            <img src="../../../assets/pexels-andra-918581 1.png" alt="Desserts" class="dessert-image" /> <!-- Add your dessert image -->
+            <p class="date">January 3, 2024</p>
+            <h6 class="cardtitle">The secret tips & tricks to prepare a perfect burger & pizza for our customers</h6>
+            <p class="description">Lorem ipsum dolor sit amet consectetur of a adipiscing elit, ilimim semper adipiscing massa gravida nisi cras enim quis nibholm varius amet gravida ut facilisis neque egestas.</p>
+            
+        </div>
+    
+        <div class="small-cards-container">
+            <div class="small-card">
+                <img src="../../../assets/pexels-suzy-hazelwood-2966196 1.png" alt="Desserts" class="card1-image" /> <!-- Add your dessert image -->
+                <p class="datecard1">January 3, 2024</p>
+            <h6 class="cardtitle1">How to prepare the perfect french fries in an air fryer</h6>
+            
+            </div>
+            <div class="small-card">
+                <img src="../../../assets/pexels-leonardo-luz-13998974 1.png" alt="Desserts" class="card2-image" /> <!-- Add your dessert image -->
+                <p class="datecard2">January 3, 2024</p>
+            <h6 class="cardtitle2">How to prepare delicious chicken tenders</h6>
+            </div>
+            <div class="small-card">
+                <img src="../../../assets/pexels-sebastian-coman-photography-3791088 1.png" alt="Desserts" class="card3-image" /> <!-- Add your dessert image -->
+                <p class="datecard3">January 3, 2024</p>
+            <h6 class="cardtitle3">7 delicious cheesecake recipes you can prepare</h6>
+            </div>
+            <div class="small-card">
+                <img src="../../../assets/pexels-katerina-holmes-5908226 1.png" alt="Desserts" class="card4-image" /> <!-- Add your dessert image -->
+                <p class="datecard4">January 3, 2024</p>
+            <h6 class="cardtitle4">5 great pizza restaurants you should visit this city</h6>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+<div class="whitemoreonemorefooter-background">
+    <div class="content-six"></div>
+
+    <!-- Your content inside the white background div -->
+
+</div>
+
+
+
+
+
+
+
+
+
+<router-outlet></router-outlet>

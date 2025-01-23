@@ -1,0 +1,960 @@
+.home-background {
+    background-image: url('../../../assets/Mask group.jpg'); /* Correct path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    color: rgb(2, 2, 2);
+
+}
+/* .Title{
+    background-image: url('../../../assets/title (4).png'); 
+    height: 10vh;
+    width: 42%;
+    margin-top: -380px; /* Space between the images */
+
+    * {
+        box-sizing: border-box;
+      }
+  
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+  
+      /* .white-background {
+        background-color: white;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 80%;
+      } */
+
+
+      .white-background {
+        background-color: #ffffff; /* White background */
+        height: 70vh; /* 80% of the viewport height */
+        width: 80%; /* 80% of the viewport width */
+        margin: auto; /* Center the div horizontally within the parent */
+        padding: 40px;
+        /* border-radius: 10px; */
+        /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+        text-align: center;
+
+
+
+
+    }
+  
+      .Title {
+        font-size: 2em;
+        font-weight: bold;
+        margin-bottom: 20px;
+        font-family: 'Playfair Display', serif; /* Apply Playfair Display font */
+
+      }
+
+
+      .card-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+        gap: 10px; /* Adds space between each card */
+
+      }
+      
+      .card {
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 30px; /* Increased padding for more internal spacing */
+        width: 25%; /* Increased width to make the card larger */
+        height: 300px; /* Set a specific height to increase the height */
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Slightly bigger shadow */
+      }
+      .icon-image {
+        width: 80px; /* Adjust the size of the icon */
+        height: 80px;
+        margin-right: 10px; /* Add space between the icon and the text */
+        vertical-align: middle; /* Align the icon with the text */
+        margin-top: -8%;
+      }
+    
+      
+    
+      
+      
+      .card h3 {
+        margin-bottom: 15px; /* Slightly more spacing under the title */
+        font-size: 1.5em; /* Increase the size of the title text */
+      }
+
+      
+
+      .explore-link {
+        text-decoration: none; /* Remove underline from the link */
+        color: #AD343E; /* Set the link color */
+        cursor: pointer;
+      }
+      
+      .explore-link:hover {
+        color: blue; /* Optional: Change color on hover */
+      }
+      
+      .card p {
+        font-size: small; /* Increase the size of the card content */
+      }
+      
+
+
+
+.welcome-image {
+    background-image: url('../../../assets/text.png'); /* Correct path */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 600px; /* Set width as needed */
+    height: 300px; /* Set height as needed */
+    margin-top: 150px; /* Space between the images */
+
+}
+
+/* Container to hold the buttons in a single line */
+.button-container {
+    display: flex; /* This makes the buttons appear in a single row */
+    justify-content: center; /* Optional: Center the buttons horizontally */
+    gap: 20px; /* Adds space between the buttons */
+    margin-top: 10px; /* Adds some space above the buttons */
+}
+
+/* Common styles for both buttons */
+.button-image {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px; /* Set width as needed */
+    height: 200px; /* Set height as needed */
+}
+
+/* First button */
+.button-1 {
+    background-image: url('../../../assets/Button.png'); /* Correct path */
+}
+.button-image:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  a {
+    text-decoration: none; /* Remove underline from anchor tag */
+  }
+
+/* Second button */
+.button-2 {
+    background-image: url('../../../assets/Button (1).png'); /* Correct path */
+}
+
+/* Style for the white background div */
+
+
+/* Style for the Explore-content */
+.Explore-content {
+    background-image: url('../../../assets/content.png'); /* Correct path */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 800px; /* Set width as needed */
+    height: 500px; /* Set height as needed */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+
+}
+
+/* Style for the blue background div */
+.blue-background {
+    background-image: url('../../../assets/bg (1).png'); /* Correct path */
+    height: 100vh; /* 80% of the viewport height */
+    width: 100%; /* 80% of the viewport width */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    margin: auto; /* Center the div horizontally within the parent */
+    padding-top: 150px; /* Optional: Add some padding to the top */
+
+}
+.content-one {
+    background-image: url('../../../assets/content (1).png'); /* Correct path */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 800px; /* Set width as needed */
+    height: 500px; /* Set height as needed */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+
+}
+
+.whitemorewealso-background {
+  background-color: #ffffff; /* White background */
+  height: 80vh; /* 80% of the viewport height */
+  width: 80%; /* 80% of the viewport width */
+  display: flex;
+  flex-direction: column; /* Stack title and cards vertically */
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  margin: auto; /* Center the div horizontally */
+  padding-top: 150px;
+}
+
+.Title-catering {
+  font-size: 2em;
+  margin-bottom: 20px; /* Reduced space between title and cards */
+  font-family: 'Playfair Display';
+  text-align: center;
+  margin-top: -15%;
+  margin-left: -30%;
+  line-height: 1.1; /* Adjust line height to reduce space between lines */
+
+
+}
+
+.card-container-catering {
+  display: flex;
+  justify-content: center; /* Center the cards in the container */
+  gap: 10px; /* Reduced space between the cards */
+  margin-top: 20px; /* Space between the title and the cards */
+  width: 80%; /* Full width of the container to allow 4 cards in a row */
+
+}
+
+
+
+.card-catering {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 18%; /* Ensure the cards fit in one row */
+  height: 160px; /* Increased height of the card */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Adds shadow for a clean effect */
+  text-align: left; /* Shift text to the left */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content to the top of the card */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+
+
+}
+.card-catering:hover {
+  transform: translateY(-5px); /* Lift card slightly */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.info-container-catering {
+  display: flex; /* Use flexbox to arrange items in a row */
+  justify-content: flex-start; /* Align items to the left */
+  margin: 20px 15px; /* Add space above and a little space on the left and right */
+  gap: 20px; /* Add space between the items */
+}
+
+.info-item-catering1 {
+  text-align: left; /* Align text to the left */
+  flex: 0 1 auto; /* Allow items to take their natural width */
+  margin-left: -5%;
+}
+
+.card-heading-catering1 {
+  font-size: 100%; /* Adjust heading size */
+  margin: 2px 0; /* Add margin for spacing */
+}
+
+.card-paragraph-catering1 {
+  font-size: 50%; /* Adjust paragraph size */
+  color: #555; /* Color for paragraph text */
+  margin: 0; /* No margin for better alignment */
+}
+
+.info-item-catering2{
+  text-align: left; /* Align text to the left */
+  flex: 0 1 auto; /* Allow items to take their natural width */
+  margin-left: 5%;
+
+}
+
+.card-heading-catering2 {
+  font-size: 100%; /* Adjust heading size */
+  margin: 2px 0; /* Add margin for spacing */
+}
+
+.card-paragraph-catering2 {
+  font-size: 50%; /* Adjust paragraph size */
+  color: #555; /* Color for paragraph text */
+  margin: 0; /* No margin for better alignment */
+}
+
+.info-item-catering3 {
+  text-align: left; /* Align text to the left */
+  flex: 0 1 auto; /* Allow items to take their natural width */
+  margin-left: 5%;
+
+}
+
+.card-heading-catering3 {
+  font-size: 100%; /* Adjust heading size */
+  margin: 2px 0; /* Add margin for spacing */
+}
+
+.card-paragraph-catering3 {
+  font-size: 50%; /* Adjust paragraph size */
+  color: #555; /* Color for paragraph text */
+  margin: 0; /* No margin for better alignment */
+}
+.info-item-catering4 {
+  text-align: left; /* Align text to the left */
+  flex: 0 1 auto; /* Allow items to take their natural width */
+  margin-left: 5%;
+
+}
+
+.card-heading-catering4 {
+  font-size: 100%; /* Adjust heading size */
+  margin: 2px 0; /* Add margin for spacing */
+}
+
+.card-paragraph-catering4 {
+  font-size: 50%; /* Adjust paragraph size */
+  color: #555; /* Color for paragraph text */
+  margin: 0; /* No margin for better alignment */
+}
+
+
+
+
+.card-image {
+  width: 100%; /* Make image container full width */
+  height: 200px; /* Set fixed height for the image */
+  overflow: hidden; /* Hide overflow if image is too large */
+  border-radius: 5px; /* Round the corners */
+}
+
+.card-image img {
+  width: 100%; /* Make image fill the container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove space below the image */
+}
+
+
+
+
+.content-two {
+    background-image: url('../../../assets/content (2).png'); /* Correct path */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 800px; /* Set width as needed */
+    height: 500px; /* Set height as needed */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+
+}
+.whitemoreonefastestfood-background {
+    background-image: url('../../../assets/BG (2).png'); /* Correct path */
+    height: 100vh; /* 80% of the viewport height */
+    width: 100%; /* 80% of the viewport width */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    margin: auto; /* Center the div horizontally within the parent */
+    padding-top: 120px; /* Optional: Add some padding to the top */
+
+}
+.content-three {
+    background-image: url('../../../assets/content (3).png'); /* Correct path */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 800px; /* Set width as needed */
+    height: 500px; /* Set height as needed */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+
+}
+.whitemoreonemorewhatour-background {
+    background-image: url('../../../assets/bg (4).png'); /* Correct path */
+    height: 100vh; /* 80% of the viewport height */
+    width: 100%; /* 80% of the viewport width */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    margin: auto; /* Center the div horizontally within the parent */
+    padding-top: 120px; /* Optional: Add some padding to the top */
+
+
+}
+.content-four {
+    background-image: url('../../../assets/content (4).png'); /* Correct path */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 800px; /* Set width as needed */
+    height: 500px; /* Set height as needed */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+
+}
+
+.content-five {
+    background-image: url('../../../assets/content (5).png'); /* Correct path */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 800px; /* Set width as needed */
+    height: 500px; /* Set height as needed */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+
+}
+.whitemoreonemorefooter-background {
+    background-image: url('../../../assets/BG (6).png'); /* Correct path */
+    height: 100vh; /* 80% of the viewport height */
+    width: 100%; /* 80% of the viewport width */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    padding-top: 120px; /* Optional: Add some padding to the top */
+
+
+}
+.content-six {
+    background-image: url('../../../assets/content (6).png'); /* Correct path */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 800px; /* Set width as needed */
+    height: 500px; /* Set height as needed */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+
+}
+.whitemoreonemoreourblog-background {
+  background-image: url('../../../assets/BG (2).png'); /* Correct path */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 70px; /* Increase top and bottom padding for more space */
+  text-align: center;
+  max-width: 1500px; /* Restrict overall width */
+  max-height: 2000px;
+  margin: 0 auto; 
+  margin-top: -85px;
+  
+}
+
+.Titlee img {
+  max-width: 300px; /* Set max width for the title image */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 20px; /* Space below the image */
+}
+
+.title-and-button {
+  display: flex;
+  justify-content: space-between; /* Keep title and button aligned */
+  align-items: center; /* Vertically align both */
+  width: 100%;
+  max-width: 850px; /* Set max width for title and button */
+  margin-bottom: 40px; /* Space between title/button and cards */
+}
+
+.Titlee {
+  display: inline-block;
+  margin-right: auto; /* Align title on the left */
+  margin-bottom: 20px; /* Adjust this to create space between title and button */
+}
+
+.read-all-button {
+  background-color: #961c2c; 
+  color: white; 
+  border: 1px solid #961c2c; 
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 50px; 
+  font-weight: bold;
+  margin-left: auto; /* Align button to the right */
+  margin-bottom: 20px; /* Add space between button and cards */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.read-all-button:hover {
+  background-color: white; 
+  color: #961c2c; 
+  border: 1px solid #961c2c;
+}
+
+.card-containerr {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px; /* Adjust gap between the cards */
+  width: 100%;
+  max-width: 1000px; /* Set max width for the cards */
+  margin: 0 auto; 
+  padding-left: 80px; /* Increase left padding */
+  padding-right: 80px; /* Increase right padding */
+}
+
+.cards {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  /* padding: 20px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 400px;
+  width: 100%;
+  position: relative; /* Allow positioning of the image */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+
+}
+
+/* Hover effect */
+.cards:hover {
+  transform: translateY(-5px); /* Lift the card slightly */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow for depth */
+}
+
+.dessert-image {
+  width: 100%; /* Make the image take the full width */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 55%; /* Limit height to fit half the card */
+  object-fit: cover; /* Ensure the image covers the space nicely */
+  margin-bottom: 2px; /* Space below the image */
+
+}
+
+.date {
+  margin: 0; /* Remove top and bottom margins */
+  padding: 0 10px; /* Add horizontal padding for space on left and right */
+  line-height: 1.5; /* Improve readability */
+  text-align: left; /* Align text to the left */
+  font-size: 12px; /* Adjust text size (small) */
+  color: #737865; /* Set the text color */
+  font-family: 'DM Sans', sans-serif; /* Use DM Sans font */
+}
+
+.cardtitle {
+  margin: 0; /* Remove top and bottom margins */
+  padding: 0 10px; /* Add horizontal padding for space on left and right */
+  line-height: 1.5; /* Improve readability */
+  text-align: left; /* Align text to the left */
+  margin-bottom: 5px; /* Add space below the title */
+  color: #2C2F24; /* Set the text color */
+
+}
+
+.description {
+  margin: 0; /* Remove top and bottom margins */
+  padding: 0 10px; /* Add horizontal padding for space on left and right */
+  line-height: 1.5; /* Improve readability */
+  text-align: left; /* Align text to the left */
+  font-family: 'DM Sans', sans-serif; /* Use DM Sans font */
+  color: #414536;
+
+}
+
+
+
+.small-cards-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px; /* Decrease the space between small cards */
+  width: 100%;
+}
+
+.small-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 200px; /* Set a fixed height for the card */
+  width: 100%;
+  overflow: hidden; /* Prevent overflow of content */
+  display: flex; /* Use flex to align items */
+  flex-direction: column; /* Align items vertically */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+.small-card:hover {
+  transform: scale(1.05); /* Scale up the card slightly */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+
+.card1-image {
+  width: 100%; /* Make the image take the full width */
+  height: 50%; /* Set a specific height for the image (adjust as needed) */
+  object-fit: cover; /* Ensure the image covers the space nicely */
+  margin-bottom: 5px; /* Space below the image */
+}
+
+.datecard1 {
+  margin: 0; /* Remove top and bottom margins */
+  padding: 0 10px; /* Add horizontal padding for space on left and right */
+  line-height: 1.5; /* Improve readability */
+  text-align: left; /* Align text to the left */
+  font-size: 12px; /* Adjust text size (small) */
+  color: #737865; /* Set the text color */
+  font-family: 'DM Sans', sans-serif; /* Use DM Sans font */
+}
+
+.cardtitle1 {
+  margin: 0; /* Remove top and bottom margins */
+  padding: 0 10px; /* Add horizontal padding for space on left and right */
+  line-height: 1.5; /* Improve readability */
+  text-align: left; /* Align text to the left */
+  margin-bottom: 5px; /* Add space below the title */
+  color: #2C2F24; /* Set the text color */
+}
+
+.card2-image {
+  width: 100%; /* Make the image take the full width */
+  height: 50%; /* Set a specific height for the image (adjust as needed) */
+  object-fit: cover; /* Ensure the image covers the space nicely */
+  margin-bottom: 5px; /* Space below the image */
+}
+
+.datecard2 {
+  margin: 0; /* Remove top and bottom margins */
+  padding: 0 10px; /* Add horizontal padding for space on left and right */
+  line-height: 1.5; /* Improve readability */
+  text-align: left; /* Align text to the left */
+  font-size: 12px; /* Adjust text size (small) */
+  color: #737865; /* Set the text color */
+  font-family: 'DM Sans', sans-serif; /* Use DM Sans font */
+}
+
+.cardtitle2 {
+  margin: 0; /* Remove top and bottom margins */
+  padding: 0 10px; /* Add horizontal padding for space on left and right */
+  line-height: 1.5; /* Improve readability */
+  text-align: left; /* Align text to the left */
+  margin-bottom: 5px; /* Add space below the title */
+  color: #2C2F24; /* Set the text color */
+}
+
+.card3-image {
+  width: 100%; /* Make the image take the full width */
+  height: 50%; /* Set a specific height for the image (adjust as needed) */
+  object-fit: cover; /* Ensure the image covers the space nicely */
+  margin-bottom: 5px; /* Space below the image */
+}
+
+.datecard3 {
+  margin: 0; /* Remove top and bottom margins */
+  padding: 0 10px; /* Add horizontal padding for space on left and right */
+  line-height: 1.5; /* Improve readability */
+  text-align: left; /* Align text to the left */
+  font-size: 12px; /* Adjust text size (small) */
+  color: #737865; /* Set the text color */
+  font-family: 'DM Sans', sans-serif; /* Use DM Sans font */
+}
+
+.cardtitle3 {
+  margin: 0; /* Remove top and bottom margins */
+  padding: 0 10px; /* Add horizontal padding for space on left and right */
+  line-height: 1.5; /* Improve readability */
+  text-align: left; /* Align text to the left */
+  margin-bottom: 5px; /* Add space below the title */
+  color: #2C2F24; /* Set the text color */
+}
+
+
+.card4-image {
+  width: 100%; /* Make the image take the full width */
+  height: 50%; /* Set a specific height for the image (adjust as needed) */
+  object-fit: cover; /* Ensure the image covers the space nicely */
+  margin-bottom: 5px; /* Space below the image */
+}
+
+.datecard4 {
+  margin: 0; /* Remove top and bottom margins */
+  padding: 0 10px; /* Add horizontal padding for space on left and right */
+  line-height: 1.5; /* Improve readability */
+  text-align: left; /* Align text to the left */
+  font-size: 12px; /* Adjust text size (small) */
+  color: #737865; /* Set the text color */
+  font-family: 'DM Sans', sans-serif; /* Use DM Sans font */
+}
+
+.cardtitle4 {
+  margin: 0; /* Remove top and bottom margins */
+  padding: 0 10px; /* Add horizontal padding for space on left and right */
+  line-height: 1.5; /* Improve readability */
+  text-align: left; /* Align text to the left */
+  margin-bottom: 5px; /* Add space below the title */
+  color: #2C2F24; /* Set the text color */
+}
+
+
+
+/* Container for card and text content */
+.card-content-container {
+  display: flex;
+  gap: 100px;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 5px 10px;
+  position: relative; /* Relative positioning for placing absolute elements */
+}
+
+.card-container-healthy {
+  width: 50%;
+  position: relative; /* Allows the new card to be positioned absolutely inside it */
+}
+
+.cards-healthy {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 400px;
+  width: 100%;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-top: -180px; /* Shift the existing card upwards */
+}
+
+.new-card {
+  position: absolute;
+  top: 250px; /* Keep the new card positioned below the shifted existing card */
+  right: -50px; /* Shift the new card to the end of the existing card */
+  width: 65%; /* Make the new card smaller in width */
+  height: 250px; /* Set a smaller height for the new card */
+  z-index: 1; /* Ensure it appears above the original card */
+}
+
+.new-image-healthy {
+  width: 100%; /* Ensure the image takes the full width of the new card */
+  height: 100%; /* Make the image fill the new card's height */
+  object-fit: cover; /* Ensure the image covers the card without distortion */
+  border-radius: 10px; /* Match the border-radius */
+}
+/* Centering text inside the new card */
+.new-card-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.new-card-heading {
+  font-size: 25px;
+  margin: 5px 0;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.new-card-paragraph {
+  font-size: 12px;
+  margin-bottom: 15px;
+  line-height: 1.4;
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* Contact Info Styling */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center all items horizontally */
+  justify-content: center; /* Center vertically */
+  gap: 10px; /* Adds space between each contact item */
+  text-align: left; /* Ensures text alignment for all items */
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  width: 100%; /* Ensures full width of each item */
+  max-width: 500px; /* Optional: You can limit the width */
+  font-size: small;
+}
+
+.contact-item img.icon {
+  margin-right: 10px; /* Adds space between the icon and the text */
+  margin-left: 10%;
+  
+}
+
+.contact-item span {
+  flex: 1;
+  word-wrap: break-word; /* Ensures long text, like the address, breaks to fit inside the container */
+}
+
+
+
+/* Optional: Add margin to make the contact info more spaced out from the paragraph */
+.new-card-paragraph + .contact-info {
+  margin-top: 10px;
+}
+
+
+.dessert-image-healthy {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card-text-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -100px;
+}
+
+.cards-healthy-title {
+  font-size: 45px;
+  color: #2C2F24;
+  margin-bottom: 15px;
+  font-family: 'Playfair Display';
+}
+
+.cards-healthy-paragphy1,
+.cards-healthy-paragphy2 {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  font-family: 'DM Sans', sans-serif;
+}
+
+
+
+
+.oval-button {
+  background-color: #fff;
+  color: black;
+  border: 1px solid black;
+  padding: 10px 30px; /* Maintain padding for button size */
+  text-decoration: none;
+  border-radius: 50px; 
+  font-weight: bold;
+  margin-left: 0; /* Align button to the left */
+  margin-right: auto; /* Optional: To maintain spacing if inside a flex container */
+  margin-bottom: 40px; /* Space between button and cards */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.oval-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.card-container-delivery {
+  display: flex; /* Align cards and info section side by side */
+  gap: 20px; /* Space between cards and info section */
+  margin-left: 5%; /* Space from the left */
+  margin-top: -95px;
+}
+
+.card-section {
+  display: flex; /* Flexbox layout for big and small cards */
+}
+
+.card-big-card-delivery {
+  width: 65%; /* Width of the big card */
+  height: 400px; /* Height for the big card */
+  overflow: hidden; /* Prevent overflow */
+  position: relative; /* Allow positioning of child elements if needed */
+  margin-right: 20px; /* Space between big card and small card container */
+  border: none; /* Optional: Remove border */
+  border-radius: 10px; 
+
+}
+
+.small-card-container {
+  display: flex; /* Flexbox for small cards */
+  flex-direction: column; /* Stack small cards vertically if needed */
+  width: 30%; /* Width for small card container */
+  padding: 0; /* Remove any padding */
+  margin: 0; /* Remove any margin */
+  gap: 20px; /* Space between cards and info section */
+
+}
+
+.small-card-delivery {
+  width: 100%; /* Full width of the small card */
+  height: 100%; /* Full height of the small card */
+  overflow: hidden; /* Prevent overflow of child elements */
+  margin: 0; /* Remove any margin */
+  padding: 0; /* Remove any padding */
+}
+
+.card-image-delivery {
+  width: 100%; /* Full width of the card */
+  height: 100%; /* Full height of the card */
+  object-fit: cover; /* Cover the entire card area without distortion */
+  object-position: center; /* Center the image */
+  display: block; /* Prevent any bottom space */
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+  transition: transform 0.3s ease; /* Smooth transition effect for scaling */
+
+}
+
+
+
+
+.info-section {
+  display: flex;
+  flex-direction: column; /* Stack heading and paragraph */
+  justify-content: center; /* Center content vertically */
+  margin-top: -5%;
+}
+
+.info-heading {
+  font-size: 40px;
+  color: #2C2F24;
+  font-family: 'Playfair Display';
+}
+
+.info-paragraph {
+  font-size: 12px; /* Adjust paragraph size */
+  color: #555; /* Color for paragraph text */
+  font-family: 'DM Sans';
+}
+
+.info-heading1,
+.info-heading2,
+.info-heading3 {
+  font-size: 15px;
+  color: #2C2F24;
+  font-family: 'Playfair Display';
+}
+
+.delivery-icon {
+  width: 22px; /* Set a width for the icon */
+  height: 22px; /* Set a height for the icon */
+  margin-right: 5px; /* Space between the icon and text */
+}
+
+.card-big-card-delivery:hover .card-image-delivery,
+.small-card-delivery:hover .card-image-delivery {
+    transform: scale(1.05); /* Scale the image up on hover */
+    transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+

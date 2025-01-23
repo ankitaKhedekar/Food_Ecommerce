@@ -1,0 +1,28 @@
+// // Custom Theming for Angular Material
+// // For more information: https://material.angular.io/guide/theming
+// @use '@angular/material' as mat; // This must be the first line
+
+// // Include the core styles for Angular Material.
+// @include mat.core();
+
+// // Define your theme palettes
+// $primary: mat.define-palette(mat.$indigo-palette);
+// $accent: mat.define-palette(mat.$pink-palette);
+
+// // Define the theme object.
+// $food-ecommerce-theme: mat.define-light-theme((
+//   color: (
+//     primary: $primary,
+//     accent: $accent,
+//   ),
+// ));
+
+// // Include Angular Material's styles for all components.
+// :root {
+//   @include mat.all-component-themes($food-ecommerce-theme);
+// }
+
+// // Your custom styles can go below
+// body {
+//   background-color: mat.get-color-from-palette($primary);
+// }

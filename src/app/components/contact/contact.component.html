@@ -1,0 +1,50 @@
+<router-outlet></router-outlet>
+
+<div class="white-bookatable">
+  <!-- Add your image here -->
+  <img src="../../../assets/title (2).png" alt="Description of Image" class="bookatable-image" />
+
+  <div class="title"></div>
+
+  <div class="card">
+    <div class="card-body">
+      <form #contactForm="ngForm">
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="name">Name</label>
+            <input type="name" id="name"   placeholder="Enter your name"   class="form-control custom-input" required name="name"   [(ngModel)]="contactData.name">
+          </div>
+          <div class="col-md-6">
+            <label for="email">Email</label>
+            <input type="email" id="email"  placeholder="Enter email address"  class="form-control custom-input" required name="email"   [(ngModel)]="contactData.email">
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <label for="subject">Subject</label>
+          <input type="subject" id="subject"  placeholder="Write a Subject"  class="form-control custom-input" required name="subject"   [(ngModel)]="contactData.subject">
+        </div>
+
+        <div class="col-md-12">
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="Write your message" class="form-control custom-input-int" required name="message"   [(ngModel)]="contactData.message" rows="5" style="resize: none; width: 100%;"></textarea>
+      </div>
+
+        <br>
+
+        <div class="col-md-12">
+          <button type="submit" class="btn btn-primary custom-button" [disabled]="contactForm.invalid">Send</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="white-backgroundmap">
+  <img src="../../../assets/info.png" alt="Description of Image" class="bookatableaddress-image" />
+
+</div>
+
+<div class="white-backgroundfooter">
+  <div class="Exploretwo-content"></div>
+</div>
